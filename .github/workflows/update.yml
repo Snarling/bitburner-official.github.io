@@ -18,7 +18,7 @@ jobs:
           ref: "main"
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
       # install, build, and commit
       - run: |
           git config --global user.email "bryan.michael.wolf@gmail.com"
